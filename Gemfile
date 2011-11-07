@@ -10,7 +10,7 @@ end
 
 group :test do
   gem "bson_ext"
-  gem "garb"
+  gem "garb", :git => 'https://github.com/vigetlabs/garb'
   gem "mocha"
   gem "mongo"
   gem "bson_ext"
@@ -18,7 +18,7 @@ group :test do
   gem "mysql"
   gem "passenger", "~>2.0"
   gem "pg"
-  gem "rails", "~>3.0.10"
+  gem "rails", "~>3.1.1"
   gem "rack"
   gem "shoulda"
   gem "timecop"
